@@ -87,7 +87,7 @@ const Calendar = () => {
           </List>
         </Box>
 
-        {/* CALENDAR */}
+        {/* CA */}
         <Box flex="1 1 100%" ml="15px">
           <FullCalendar
             height="75vh"
