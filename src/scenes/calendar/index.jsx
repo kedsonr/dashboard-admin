@@ -87,7 +87,7 @@ const Calendar = () => {
           </List>
         </Box>
 
-        {/* CA */}
+        {/* CALENDAR */}
         <Box flex="1 1 100%" ml="15px">
           <FullCalendar
             height="75vh"
@@ -98,9 +98,9 @@ const Calendar = () => {
               listPlugin,
             ]}
             headerToolbar={{
-              Left: "prev, next taday",
+              left: "prev,next today",
               center: "title",
-              right: "dayGridMonth, timeGridWeek, timeGridDay, listMonth",
+              right: "dayGridMonth,timeGridWeek,timeGridDay,listMonth",
             }}
             initialView="dayGridMonth"
             editable={true}
@@ -112,7 +112,7 @@ const Calendar = () => {
             eventsSet={(events) => setCurrentEvents(events)}
             intialEvents={[
               { id: "1234", title: "All-day event", data: "2022-09-14" },
-              { id: "4321", title: "Timed event", data: "2022-09-14" },
+              { id: "4321", title: "Timed event", data: "2022-09-28" },
             ]}
           />
         </Box>
