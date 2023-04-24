@@ -11,7 +11,7 @@ const Pie = () => {
         <PieChart />
         </Box>
        </Box>
-    )
-}
+    );
+};
 
 export default Pie;
